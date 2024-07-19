@@ -15,6 +15,8 @@ publish.workspace = true
 [dependencies]
 gstd.workspace = true
 pebbles-game-io.workspace = true
+parity-scale-codec.workspace = true
+scale-info.workspace = true
 
 [build-dependencies]
 gear-wasm-builder.workspace = true
@@ -40,3 +42,6 @@ pebbles-game-io.path = "io"
 tokio = "1"
 xshell = "0.2"
 anyhow = "1"
+parity-scale-codec = { version = "3", default-features = false }
+scale-info = { version = "2", default-features = false }
+
