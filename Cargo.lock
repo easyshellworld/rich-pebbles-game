@@ -2098,6 +2098,31 @@ dependencies = [
 ]
 
 [[package]]
+name = "gamesession"
+version = "1.1.0"
+dependencies = [
+ "gamesession-io",
+ "gclient",
+ "gear-wasm-builder",
+ "gmeta",
+ "gstd",
+ "gtest",
+ "parity-scale-codec",
+ "scale-info",
+ "tokio",
+]
+
+[[package]]
+name = "gamesession-io"
+version = "1.1.0"
+dependencies = [
+ "gmeta",
+ "gstd",
+ "parity-scale-codec",
+ "scale-info",
+]
+
+[[package]]
 name = "gclient"
 version = "1.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4068,30 +4093,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f8ed6a7761f76e3b9f92dfb0a60a6a6477c61024b775147ff0973a02653abaf2"
 dependencies = [
  "digest 0.10.7",
-]
-
-[[package]]
-name = "pebbles-game"
-version = "0.1.0"
-dependencies = [
- "gclient",
- "gear-wasm-builder",
- "gstd",
- "gtest",
- "parity-scale-codec",
- "pebbles-game-io",
- "scale-info",
- "tokio",
-]
-
-[[package]]
-name = "pebbles-game-io"
-version = "0.1.0"
-dependencies = [
- "gmeta",
- "gstd",
- "parity-scale-codec",
- "scale-info",
 ]
 
 [[package]]
@@ -7472,6 +7473,32 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "59b5e5f6c299a3c7890b876a2a587f3115162487e704907d9b6cd29473052ba1"
 dependencies = [
  "memchr",
+]
+
+[[package]]
+name = "wordle"
+version = "1.1.0"
+dependencies = [
+ "gamesession-io",
+ "gclient",
+ "gear-wasm-builder",
+ "gmeta",
+ "gstd",
+ "gtest",
+ "parity-scale-codec",
+ "scale-info",
+ "tokio",
+ "wordle-io",
+]
+
+[[package]]
+name = "wordle-io"
+version = "1.1.0"
+dependencies = [
+ "gmeta",
+ "gstd",
+ "parity-scale-codec",
+ "scale-info",
 ]
 
 [[package]]
