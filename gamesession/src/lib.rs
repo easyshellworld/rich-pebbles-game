@@ -10,14 +10,14 @@ fn get_game_session_mut() -> &'static mut GameSession {
     unsafe {
         GAME_SESSION_STATE
             .as_mut()
-            .expect("PEBBLES_GAME is not initialized")
+            .expect("GAME is not initialized")
     }
 }
 fn get_game_session() -> &'static GameSession {
     unsafe {
         GAME_SESSION_STATE
             .as_ref()
-            .expect("PEBBLES_GAME is not initialized")
+            .expect("GAME is not initialized")
     }
 }
 
