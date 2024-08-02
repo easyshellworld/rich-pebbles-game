@@ -14,9 +14,6 @@ publish = false
 
 
 
-
-
-
 [workspace.dependencies]
 gstd = "1.4.2"
 gmeta = "1.4.2"
