@@ -175,4 +175,3 @@ extern "C" fn state() {
     msg::reply::<GameSessionState>(game_session.into(), 0)
         .expect("failed to encode or reply from state()");
 }
-//test
